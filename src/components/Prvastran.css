@@ -1,0 +1,90 @@
+.containter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  text-align: center;
+  width: 60vw;
+  height: 8vh;
+  font-size: 30px;
+  outline: none;
+  color: grey;
+  font-weight: 700;
+  background-color: rgb(150, 204, 173);
+  border-radius: 20px;
+  border: none;
+  transition: 0.5s;
+}
+.gumb {
+  margin: 40px;
+  outline: none;
+  height: 7vh;
+  width: 20vw;
+  color: grey;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.gumb:hover,
+input:hover {
+  box-shadow: 5px 5px;
+  transition: 0.5s;
+  outline: none;
+}
+
+.slika {
+  margin-top: 3vh;
+}
+.vsebina {
+  width: 20vw;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.pozicijaTexta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vseb {
+  margin-left: 3vw;
+  font-size: 20px;
+}
+.kjerSLika {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.slikca {
+  width: 70%;
+}
+h1 {
+  padding: 0 20px;
+}
+
+.prestavimoTole {
+  padding-top: 3vh;
+}
+.crke {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Anton", sans-serif;
+  perspective: 1000px;
+}
+.crke span {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 100px;
+  user-select: none;
+  line-height: 0.8;
+}
+.crke span:nth-child(1):active {
+  animation: balance 1.5s ease-out;
+  transform-origin: bottom left;
+  color: red;
+}
